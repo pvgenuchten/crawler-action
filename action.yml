@@ -17,4 +17,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.folder-to-process }}
+    - ${{ inputs.folder-input }}
+    - ${{ inputs.folder-output }}
